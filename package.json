@@ -2,7 +2,7 @@
   "name": "app_authentication",
   "version": "1.0.0",
   "description": "<h1 align=\"center\">Task-02 SIGN IN USING GOOGLE ACCOUNT</h1> <br> <br>",
-  "main": "script.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
