@@ -10,32 +10,56 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- INCLUDING CSS FROM BOOTSTRAP -->
 
-  <title>Testing app</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- INCLUDING CSS WRITTEN BY ME -->
+
+  <title>Goole Sign In :/// </title>
 
   <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <!-- INCUDING API FOR GOOGLE SIGN UP -->
+
+
+
 </head>
 
 <body>
-  <h1>Main Heading</h1>
-  <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+  <!-- CONTAINER 01 SHOWING SIGN UP BUTTON -->
+  <div class="container container--1">
+    <h1 class="h1">Google Sign In and Sign Out Implementation</h1>
+    <div class="button-container">
+      <div id='my-signin2' class="g-signin2 btn" data-onsuccess="onSignIn" data-width="200px" data-height="50px"></div>
+      <!-- BUTTON FOR SIGN UP -->
+    </div>
+  </div>
 
 
-  <a href="#" onclick="signOut();">Sign out</a>
-  <script>
-    function signOut() {
-      var auth2 = gapi.auth2.getAuthInstance();
-      auth2.signOut().then(function () {
-        console.log('User signed out.');
-      });
-    }
-  </script>
+  <!-- CONTAINER 02 SHOWING DETAILS OF USER AFTER SIGN UP -->
+  <div class="container container--2">
+    <h2>Contact Details</h2>
+    <address>
+      <div class="content">
+        <div class="name">Chinmay B S</div>
+        <div class="email">chinmaybs89@gmail.com</div>
+      </div>
+      <div><img class="image" src="#" alt="profile picture in Gmail"></div>
+    </address>
+    <button type="button" class="btn btn-light sign-out">Sign out</button>
+    <!-- BUTTON FOR SIGN OUT -->
+  </div>
 
 
   <script src="script.js"></script>
+  <!-- JAVASCRIPT WRIITEN BY ME -->
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+  <!-- JAVASCRIPT FOR  BOOTSTRAP -->
+
 </body>
 
 </html>
