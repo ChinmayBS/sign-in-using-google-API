@@ -52,3 +52,9 @@ If you want to sign out from this site. click on the button sign out.
 </p>
 <br>
 <br>
+
+### App deployed in Heroko
+<p>link: <a href="https://sign-up-php.herokuapp.com/">sign-in-app</a></p>
+<p>For better performance use google chrome version 92 or higher</p>
+
+Note: In Heroko we can't deploy static websites so i used index.php (Assumes php based app)
