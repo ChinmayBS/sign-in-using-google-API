@@ -1,4 +1,4 @@
-<h1 align="center">Task-02 SIGN UP USING GOOGLE ACCOUNT</h1>
+<h1 align="center">Task-02 SIGN IN USING GOOGLE ACCOUNT</h1>
 <br>
 <br>
 
