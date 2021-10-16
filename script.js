@@ -1,12 +1,6 @@
 'use strict';
 
 
-const port = process.env.PORT || 8080;
-server.listen(port, () => {
-  console.log("App is running on port " + port);
-});
-
-
 // QUERY SELECTOR TO SELECT BUTTONS AND CONTAINER IN A WEB PAGE
 const googleSignInButton=document.querySelector('.g-signin2');
 const googleSignOutButton=document.querySelector('.sign-out');

@@ -4,13 +4,14 @@
   "description": "<h1 align=\"center\">Task-02 SIGN IN USING GOOGLE ACCOUNT</h1> <br> <br>",
   "main": "index.html",
   "scripts": {
+    "start":"index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChinmayBS/sign-up-using-google-API.git"
   },
-  "author": "chinmay b s",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ChinmayBS/sign-up-using-google-API/issues"
